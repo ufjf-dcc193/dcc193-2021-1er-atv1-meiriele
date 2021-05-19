@@ -8,7 +8,7 @@ public class Exm00Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Exm00Application.class, args);
-		System.out.println("Hello Meiriele");
+		System.out.println("Olá Meiriele");
 	}
 
 }
