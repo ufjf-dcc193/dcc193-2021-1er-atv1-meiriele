@@ -9,7 +9,7 @@ public class QuestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(QuestApplication.class, args);
 
-		Heroi h1 = new Paladino();
+		Heroi h1 = Guilda.createHeroi();
 		Missao m1 = new Missao(h1);
 		m1.iniciar();
 		m1.concluir();
